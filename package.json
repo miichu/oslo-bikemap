@@ -1,0 +1,44 @@
+{
+  "name": "bikes-on-map-oslo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000 --host",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui"
+  },
+  "dependencies": {
+    "@navikt/ds-react": "^5.6.1",
+    "axios": "^1.5.1",
+    "docker": "^1.0.0",
+    "mapbox-gl": "^2.15.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.11",
+    "react-query": "^3.39.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/mapbox-gl": "^2.7.15",
+    "@types/node": "^20.8.2",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.50.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11"
+  ]
+}
