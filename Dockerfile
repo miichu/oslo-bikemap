@@ -15,6 +15,6 @@ RUN npm install
 # Copy all our remaining files from our local directory into /app code directory
 COPY . /app
 
-EXPOSE 5000
+EXPOSE 3000
 
 CMD ["npm", "run", "dev"]
